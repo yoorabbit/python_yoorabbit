@@ -16,22 +16,53 @@ def 함수이름(입력):
     실행할 코드 입력
     return 출력
 '''
-def 하율():
-    print("하율이")
-하율()
-하율()
-하율()
+# def 하율():
+#     print("하율이")
+# 하율()
+# 하율()
+# 하율()
 
-def 유래(몇번):
-    for i in range(몇번):
-        print("나는 유래")
-유래(3)
-유래(7)
+# def 유래(몇번):
+#     for i in range(몇번):
+#         print("나는 유래")
+# 유래(3)
+# 유래(7)
 
-def 서현(입력):
+# def 서현(입력):
+#     for i in range(입력):
+#         print("나는 서현")
+#     return i
+# print(서현(5))
+# 결과=서현(7)
+# print(결과)
+
+# 1
+def 파이선(입력):
     for i in range(입력):
-        print("나는 서현")
-    return i
-print(서현(5))
-결과=서현(7)
+        print("파이선 함수 배웠어")
+파이선(5)
+# 2
+def 곱(입력,이브력):
+    return 입력*이브력
+print(곱(2,3))
+결과=곱(10,20)
 print(결과)
+# 3
+def 삼각형(삼,각형):
+    return 삼*각형/2
+print(삼각형(10,5))
+결과=삼각형(6,8)
+print(결과)
+# 4
+def 구구단(입력):
+    for i in range(1,10):
+        print(i*입력)
+구구단(3)
+구구단(7)
+# 5
+def 홀수(입력):
+    for i in range(입력*2):
+        if i%2!=0:
+            print(i)
+홀수(5)
+홀수(6)
