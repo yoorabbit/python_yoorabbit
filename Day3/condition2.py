@@ -17,16 +17,16 @@
 # while False:
 #     print("엥")
 
-# i=1
-# while i<11:
-#     print(i)
-#     i+=1
+i=1
+while i<11:
+    print(i)
+    i+=1
 
-# i=1
-# while i<11:
-#     if i%2==0:
-#         print(i)
-#     i+=1
+i=1
+while i<11:
+    if i%2==0:
+        print(i)
+    i+=1
 
 sum=0
 i=1
@@ -36,12 +36,12 @@ while i<11:
     i+=1    
 print(sum)
 
-# i=50
-# while i<101:
-#     if i%3==0:
-#         if i%7==0:
-#             print(i)
-#     i+=1
+i=50
+while i<101:
+    if i%3==0:
+        if i%7==0:
+            print(i)
+    i+=1
 
 sum=1
 i=1
